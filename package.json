@@ -1,0 +1,30 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "description": "un chat sencillo utilizando Socket.io y Express.js",
+  "main": "App.js",
+  "scripts": {
+    "test": "supervisor App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelRSanchez/first-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express.js",
+    "nodejs"
+  ],
+  "author": "AngelRSanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelRSanchez/first-chat/issues"
+  },
+  "homepage": "https://github.com/AngelRSanchez/first-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "supervisor": "^0.12.0"
+  }
+}

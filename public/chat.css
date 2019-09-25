@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1268a5, #119a9a) !important;
+}
+
+#app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* alert box */
+
+.alert-box-green {
+    position: absolute;
+    top: 20px;
+    display: none;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f1f0f0;
+    color: #0ab30a;
+    box-shadow: 0px 0px 20px 10px #00000070;
+    font-size: 18px;
+    padding: .8rem;
+    z-index:10;
+}
+
+.alert-box-red {
+    position: absolute;
+    top: 20px;
+    display: none;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f1f0f0;
+    color: #e90808;
+    box-shadow: 0px 0px 20px 10px #00000070;
+    font-size: 18px;
+    padding: .8rem;
+    z-index:10;
+}
+
+/* contenedor */
+
+.container {
+    position: relative;
+    background: linear-gradient(to right, #58eab2, #7bf0c3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px #00000070;
+    height: 400px;
+    width: 650px;
+    margin: 2rem auto;
+    padding: .5rem;
+}
+
+/* Mensajes del chat */
+
+#chat {
+    list-style: none;
+    color: #000000bb;
+    font-family: sans-serif;
+    font-weight: bold;
+    max-height: 350px;
+    overflow-y: hidden;
+}
+
+/* form */
+
+#chat-form {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#message-text {
+    width: 87%;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    color: #000000c7;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px 0px #1c4519b0;
+}
+
+#chat-form button {
+    outline: none;
+    border: none;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #119a9a;
+    color: white;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: all ease .2s;
+}
+
+#chat-form button:hover {
+    background-color: #119a9ad9;
+    color: #000000a8;
+    cursor: pointer;
+}
